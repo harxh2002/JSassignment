@@ -1,0 +1,19 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <script>
+        var today = new Date();
+        var day = today.getDay();
+        var wlist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+        document.write("Today is : " + wlist[day] +"\n");
+        var a = today.getHours();
+        var b = today.getMinutes();
+        var c = today.getSeconds();
+        var d = (h >= 12)? " PM ":" AM ";
+        h = (h >= 12)? h - 12: h; 
+
+        document.write("<br> Current Time : " + (h+p) + " : " + m + " : " + s);
+        </script>
+    </body>
+</html> 
